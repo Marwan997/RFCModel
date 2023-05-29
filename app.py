@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+import sklearn
 
 #load model
 model = joblib.load('tennis_rfc_model.pkl')
